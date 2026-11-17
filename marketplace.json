@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"name": "athena-preset-prompts",
+	"interface": { "displayName": "Athena 추천 작업" },
+	"plugins": [
+		{
+			"name": "sample-preset-prompts",
+			"source": { "source": "local", "path": "./packages/sample-preset-prompts" },
+			"category": "추천 작업"
+		}
+	]
+}
