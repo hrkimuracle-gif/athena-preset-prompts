@@ -1,11 +1,16 @@
 {
 	"schemaVersion": 1,
 	"name": "athena-preset-prompts",
-	"interface": { "displayName": "Athena 추천 작업" },
+	"interface": { "displayName": "Athena 추천 작업 테스트" },
 	"plugins": [
 		{
-			"name": "sample-preset-prompts",
-			"source": { "source": "local", "path": "./packages/sample-preset-prompts" },
+			"name": "team-prompts",
+			"source": { "source": "local", "path": "./packages/team-prompts" },
+			"category": "추천 작업"
+		},
+		{
+			"name": "customer-prompts",
+			"source": { "source": "local", "path": "./packages/customer-prompts" },
 			"category": "추천 작업"
 		}
 	]

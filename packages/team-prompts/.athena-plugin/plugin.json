@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"name": "team-prompts",
+	"version": "1.0.0",
+	"description": "채팅 시작 화면의 추천 작업에 팀에서 쓰는 항목 5개를 덧붙이는 테스트용 플러그인. 기본 제공 항목은 그대로 두고 그 뒤에 붙습니다.",
+	"keywords": ["preset-prompts", "suggested-tasks", "test"],
+	"interface": {
+		"displayName": "우리 팀 추천 작업",
+		"shortDescription": "추천 작업에 팀 항목 5개를 덧붙이는 테스트용 플러그인",
+		"developerName": "Uracle",
+		"category": "추천 작업"
+	}
+}
